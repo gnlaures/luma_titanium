@@ -1,3 +1,17 @@
+<section class="s-newsletter">
+	<div class="u-container u-containerFlex">
+		<div class="s-newsletter__head">
+			<h1>Fique por dentro</h1>
+			<p>Cadastre seu email e receba todas as nossas novidades e promoções!</p>
+		</div>
+		<div class="s-newsletter__form">
+			<div class="c-newsletter">
+				<input type="text" placeholder="O que deseja hoje?">
+				<button>Cadastrar</button>
+			</div>
+		</div>
+	</div>
+</section>
 <footer class="l-footer">
     <div class="u-container">
 		<ul class="l-footer__contactList c-responsiveGrid"
@@ -112,7 +126,6 @@
 		</div>
 	</div>
 </footer>
-
 <div class="l-legalFooter">
 	<div class="u-container u-containerFlex">
 		<div class="l-legalFooter__payments">

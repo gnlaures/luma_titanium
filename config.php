@@ -67,9 +67,9 @@
 			$title_page = 'Institucional - '.$title;
 			break;
 		
-		case 'carreiras':
-			$file = 'page_carreiras.php';
-			$title_page = 'Carreiras - '.$title;
+		case 'departamento':
+			$file = 'page_departamento.php';
+			$title_page = 'Categorias - '.$title;
 			break;
 		
 		case 'contato':
