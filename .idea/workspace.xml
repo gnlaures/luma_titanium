@@ -79,8 +79,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gulp.js.watch" />
         <item itemvalue="Gulp.js.default" />
+        <item itemvalue="Gulp.js.watch" />
         <item itemvalue="Gulp.js.scripts" />
       </list>
     </recent_temporary>
@@ -109,6 +109,7 @@
       <workItem from="1596673760003" duration="12000" />
       <workItem from="1596843300484" duration="44325000" />
       <workItem from="1596980793690" duration="6717000" />
+      <workItem from="1596998155734" duration="1304000" />
     </task>
     <servers />
   </component>

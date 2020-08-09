@@ -2,7 +2,30 @@
 	$http = 'http://';
 	$urllocal = '/luma_titanium';
 	$title = 'Titanium - VTEX';
-	include_once('incs/functions.php');
+
+#Functions
+	if (!function_exists("echoCssFiles")) {
+		function echoCssFiles($cssFiles)
+		{
+			global $output_styles;
+			foreach ($cssFiles as $key => $val) {
+				$output_styles = "<link href=\"$val\" type=\"text/css\" rel=\"stylesheet\" />";
+				echo $output_styles;
+			}
+			return $output_styles;
+		}
+	}
+	if (!function_exists("echoJssFiles")) {
+		function echoJssFiles($jsFiles)
+		{
+			global $output_scripts;
+			foreach ($jsFiles as $key => $val) {
+				$output_scripts = "<script defer src=\"$val\"></script>";
+				echo $output_scripts;
+			}
+			return $output_scripts;
+		}
+	}
 
 #Retorna a página
 	$URL = str_replace($urllocal, '', $_SERVER['REQUEST_URI']);
@@ -17,18 +40,14 @@
 	$url_site = $http . $_SERVER['SERVER_NAME'] . $urllocal;
 	
 	$css_libraries = 'arquivos/libraries-min.css';
-	$css_homePage = 'arquivos/homePage-min.css';
-	$css_innerPages = 'arquivos/innerPages-min.css';
 	$css_allPages = 'arquivos/allPages-min.css';
 	$js_jquery = 'https://code.jquery.com/jquery-3.3.1.min.js';
 	$js_libraries = 'arquivos/libraries-min.js';
-	$js_homePage = 'arquivos/homePage-min.js';
-	$js_innerPages = 'arquivos/innerPages-min.js';
 	$js_allPages = 'arquivos/allPages-min.js';
 	$js_components = 'arquivos/components-min.js';
 	
-	$load_this_js = array($js_jquery, $js_libraries, $js_components, $js_allPages, $js_innerPages);
-	$load_this_css = array($css_libraries, $css_innerPages);
+	$load_this_js = array($js_jquery, $js_libraries, $js_components, $js_allPages);
+	$load_this_css = array($css_libraries, $css_allPages);
 	
 	switch ($pagina) {
 		case '' :
@@ -36,8 +55,6 @@
 			$file = 'page_home.php';
 			$title_page = $title;
 			$home = true;
-			$load_this_js = array($js_jquery, $js_libraries, $js_components, $js_allPages, $js_homePage);
-			$load_this_css = array($css_libraries, $css_homePage);
 			break;
 			
 		case 'componentslist':
