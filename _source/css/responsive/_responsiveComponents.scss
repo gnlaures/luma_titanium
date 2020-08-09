@@ -1,0 +1,47 @@
+// c-cardOccasion
+@media screen and (max-width: 360px) {
+	.c-cardOccasion {
+		width: 120px;
+		img {
+			width: 120px;
+			height: 120px;
+		}
+	}
+}
+
+// cardProduct
+@media screen and (max-width: 1050px) {
+	.c-cardProduct__sizes li {
+		padding: 0 1px;
+	}
+	.c-cardProduct__sizes a {
+		width: 26px;
+		height: 26px;
+		font-size: 11px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.c-cardProduct__content {
+		padding: 15px 5px;
+		.c-btn {
+			@include u-showElement;
+			min-width: 100%;
+			span {
+				display: none;
+			}
+		}
+	}
+	.c-cardProduct__figure .figureHero img {
+		height: 300px;
+	}
+}
+@media screen and (max-width: 420px) {
+	.c-cardProduct .c-cardProduct__sizes {
+		display: none;
+	}
+}
+@media screen and (max-width: 360px) {
+	.c-cardProduct__figure .figureHero img {
+		height: 250px;
+	}
+}

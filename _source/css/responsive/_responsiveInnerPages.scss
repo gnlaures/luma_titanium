@@ -1,0 +1,166 @@
+// page carreiras
+#page__carreiras {
+    @media screen and (max-width: 950px) {
+        .module__carreiras {
+            .job__hero {
+                .job__head {
+                    padding: 0 20px;
+                    min-height: 70px;
+                }
+                .head__title {
+                    padding-left: 40px;
+                    padding-right: 40px;
+                    h4 {
+                        font-size: 16px;
+                        line-height: 1.1;
+                    }
+                    &:before {
+                        left: 20px;
+                    }
+                }
+                .head__share {
+                    &:before {
+                        left: -20px;
+                    }
+                }
+                .head__readMore {
+                    margin-left: 40px;
+                    &:before {
+                        left: -20px;
+                    }
+                }
+                
+                .infos__content {
+                    margin-bottom: 20px;
+                }
+            }
+            .job__hero.is-active {
+                .job__infos {
+                    padding: 10px 20px 20px 20px;
+                }
+            }
+            
+            .c-simpleForm li {
+                &.u-fw20,
+                &.u-fw30,
+                &.u-fw40,
+                &.u-fw60,
+                &.u-fw70 {
+                    @include flexWidth(50%);
+                }
+                &.liAddress,
+                &.liFile,
+                &.liBtn {
+                    @include flexWidth(100%);
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 800px) {
+        .module__carreiras {
+            .job__hero {
+                .head__share .share__call span {
+                    padding-left: 0;
+                    display: none;
+                }
+                .head__readMore span {
+                    white-space: pre-wrap;
+                    line-height: 1.1;
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 640px) {
+        .module__carreiras {
+            .job__hero {
+                .head__readMore {
+                    padding-left: 10px;
+                    span {
+                        display: none;
+                    }
+                    &:after {
+                        bottom: inherit;
+                        top: -5px;
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 580px) {
+        .module__carreiras {
+            .job__hero {
+                .job__head {
+                    padding: 5px 20px;
+                }
+                .head__title {
+                    justify-content: flex-start;
+                    flex-wrap: wrap;
+                    h4 {
+                        order: 2;
+                    }
+                    .head__place {
+                        order: 1;
+                        margin-bottom: 4px;
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 480px) {
+        .module__carreiras {
+            .job__hero {
+                .job__head {
+                    padding: 10px 20px;
+                }
+                .head__cod {
+                    font-size: 12px;
+                    padding-left: 5px;
+                    min-width: 40px;
+                }
+                .head__readMore {
+                    display: none;
+                }
+            }
+            .c-simpleForm li {
+                &.u-fw20,
+                &.u-fw30,
+                &.u-fw40,
+                &.u-fw50,
+                &.u-fw60,
+                &.u-fw70,
+                &.liAddress,
+                &.liFile,
+                &.liBtn {
+                    @include flexWidth(100%);
+                }
+                &.liSelect {
+                    @include flexWidth(50%);
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 410px) {
+        .module__carreiras {
+            .job__hero {
+                .job__head {
+                    padding: 6px 10px;
+                }
+                .head__cod {
+                    display: none;
+                }
+                .head__title {
+                    padding-left: 15px;
+                    padding-right: 30px;
+                    &:before {
+                        display: none;
+                    }
+                }
+                .head__share {
+                    &:before {
+                        left: -15px;
+                    }
+                }
+            }
+        }
+    }
+}
