@@ -1,8 +1,6 @@
 <?php
 include("components/_head.php");
-
 include("components/l_nav.php");
-include("components/m_ieDetect.php");
 
 include($file);
 

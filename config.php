@@ -72,19 +72,9 @@
 			$title_page = 'Categorias - '.$title;
 			break;
 		
-		case 'contato':
-			$file = 'page_contato.php';
-			$title_page = 'Contato - '.$title;
-			break;
-		
-		case 'termos-de-uso':
-			$file = 'page_termosUso.php';
-			$title_page = 'Termos de Uso - '.$title;
-			break;
-		
-		case 'politica-de-privacidade':
-			$file = 'page_politicaPrivacidade.php';
-			$title_page = 'Política de Privacidade - '.$title;
+		case 'produto':
+			$file = 'page_produto.php';
+			$title_page = 'Produto - '.$title;
 			break;
 		
 		default :
