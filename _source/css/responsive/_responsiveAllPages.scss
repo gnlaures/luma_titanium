@@ -400,3 +400,66 @@
         justify-content: center;
     }
 }
+
+//s-gridDpt
+@media screen and (max-width: 1170px) {
+    .s-gridDpt {
+        padding-left: 50px;
+        .head__changeView {
+            .changeView__layout {
+                li.col4 {
+                    display: none;
+                }
+                li.col2 {
+                    display: block !important;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 680px) {
+    .s-gridDpt {
+        .head__changeView {
+            .changeView__layout {
+                li.col3 {
+                    display: none !important;
+                }
+                li.col1 {
+                    display: block !important;
+                }
+            }
+        }
+        .grid__products {
+            @include calcWidthForPositionNegative(-4px);
+            > li {
+                padding: 4px;
+                @include flexWidth(50%);
+            }
+        }
+    }
+}
+@media screen and (max-width: 350px) {
+    .s-gridDpt {
+        .grid__products {
+            @include calcWidthForPositionNegative(-2px);
+            > li {
+                padding: 2px;
+            }
+        }
+    }
+}
+
+// l-contentDpt
+@media screen and (max-width: 900px) {
+    .s-gridDpt {
+        padding-left: 0;
+    }
+    .l-asideFilters {
+        display: none;
+    }
+}
+@media screen and (max-width: 350px) {
+    .l-contentDpt {
+        padding: 0;
+    }
+}

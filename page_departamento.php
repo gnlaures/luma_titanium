@@ -141,22 +141,22 @@
 							</select>
 						</div>
 						<ul class="changeView__layout">
-							<li>
+							<li class="col4">
 								<span class="js-toggleGrid" data-cols="4">
 									<img src="media/img/icons/col4.svg" alt="4 Colunas">
 								</span>
 							</li>
-							<li>
+							<li class="col3">
 								<span class="js-toggleGrid is-active" data-cols="3">
 									<img src="media/img/icons/col3.svg" alt="3 Colunas">
 								</span>
 							</li>
-							<li class="u-dnone">
+							<li class="u-dnone col2">
 								<span class="js-toggleGrid" data-cols="2">
 									<img src="media/img/icons/col2.svg" alt="2 Colunas">
 								</span>
 							</li>
-							<li class="u-dnone">
+							<li class="u-dnone col1">
 								<span class="js-toggleGrid" data-cols="1">
 									<img src="media/img/icons/col1.svg" alt="1 Coluna">
 								</span>
@@ -432,7 +432,7 @@
 							</div></li>
 					</ul>
 					<div class="content__cta">
-						<a href="#" class="c-btn">Carregar mais</a>
+						<a href="#" class="c-btn --stroke --secondary">Carregar mais</a>
 					</div>
 				</div>
 			</section>
