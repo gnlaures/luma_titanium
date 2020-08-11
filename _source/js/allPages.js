@@ -275,7 +275,7 @@ if ($('.l-asideFilters').length) {
 }
 
 // s-
-if ($('.l-contentDpt').length) {
+if ($('.l-contentWithAside').length) {
     function openModal(el) {
         $('.l-modalMobile__mask').addClass('is-active');
         $(el).addClass('is-active');

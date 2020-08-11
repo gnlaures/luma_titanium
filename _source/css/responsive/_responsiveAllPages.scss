@@ -504,7 +504,7 @@
 
 // l-contentDpt
 @media screen and (max-width: 900px) {
-    .l-contentDpt {
+    .l-contentWithAside {
         .l-asideFilters {
             display: none;
         }
@@ -514,7 +514,7 @@
     }
 }
 @media screen and (max-width: 350px) {
-    .l-contentDpt {
+    .l-contentWithAside {
         padding: 0;
     }
 }

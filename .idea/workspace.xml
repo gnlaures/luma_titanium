@@ -101,10 +101,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gulp.js.cssLibraries" />
-        <item itemvalue="Gulp.js.default" />
-        <item itemvalue="Gulp.js.jsLibraries" />
         <item itemvalue="Gulp.js.watch" />
+        <item itemvalue="Gulp.js.default" />
+        <item itemvalue="Gulp.js.cssLibraries" />
+        <item itemvalue="Gulp.js.jsLibraries" />
         <item itemvalue="Gulp.js.scripts" />
       </list>
     </recent_temporary>
@@ -135,6 +135,8 @@
       <workItem from="1596980793690" duration="6717000" />
       <workItem from="1596998155734" duration="7264000" />
       <workItem from="1597101421603" duration="15966000" />
+      <workItem from="1597154991917" duration="163000" />
+      <workItem from="1597155181037" duration="2107000" />
     </task>
     <servers />
   </component>

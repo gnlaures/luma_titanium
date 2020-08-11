@@ -660,7 +660,7 @@ body {
 		@include u-showElement;
 	}
 }
-.l-headerDpt {
+.l-headerTitleInner {
 	display: block;
 	padding: 20px 0;
 	margin-bottom: 15px;
@@ -678,11 +678,17 @@ body {
 		object-position: center;
 	}
 }
-.l-contentDpt {
-
+.l-contentWithAside {
+	&__aside {
+		@include flexWidth(200px);
+	}
+	&__content {
+		flex: 1 1 auto;
+		padding-left: 75px;
+		padding-bottom: 80px;
+	}
 }
 .l-asideFilters {
-	@include flexWidth(200px);
 	.c-toggleList {
 		border-top: 1px solid $lastGray;
 		padding-top: 8px;
@@ -1233,7 +1239,96 @@ body {
 		}
 	}
 	h1, h2, h3, h4, h5, h6 {
+		display: block;
+		text-align: left;
+		text-transform: uppercase;
+		color: $black;
 		margin-bottom: 10px;
+	}
+	h1 {
+		font-size: 35px;
+		font-weight: $fwLight;
+	}
+	h2 {
+		font-size: 32px;
+		font-weight: $fwLight;
+	}
+	h3 {
+		font-size: 28px;
+		font-weight: $fwLight;
+	}
+	h4 {
+		font-size: 22px;
+		font-weight: $fwSemiBold;
+	}
+	h5 {
+		font-size: 18px;
+		font-weight: $fwSemiBold;
+	}
+	h6 {
+		font-size: 16px;
+		font-weight: $fwSemiBold;
+	}
+	hr {
+		display: block;
+		width: 100%;
+		height: 1px;
+		background: $mutedGray;
+		margin: 15px 0;
+	}
+	blockquote {
+		@include roundedAll(20x);
+		padding: 40px;
+		background: $white3;
+		font-style: italic;
+		font-size: 22px;
+		color: $text;
+		display: block;
+		font-weight: $fwLight;
+		width: 100%;
+		text-align: center;
+		margin: 15px 0;
+	}
+	.c-video {
+		@include roundedAll(2px);
+	}
+	.pictureCover {
+		display: block;
+		margin-bottom: 30px;
+		figure {
+			display: block;
+			img {
+				display: block;
+				width: 100%;
+			}
+		}
+	}
+	.pictureInRight,
+	.pictureInLeft {
+		margin: 15px 0;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		figure {
+			@include flexWidth(40%);
+			figcaption {
+				@include paragrafos($fs: 14px);
+			}
+		}
+		> div {
+			flex: 1 1 auto;
+			padding-left: 50px;
+		}
+	}
+	.pictureInRight {
+		figure {
+			order: 2;
+		}
+		> div {
+			padding-left: 0;
+			padding-right: 50px;
+		}
 	}
 }
 .s-breadcrumb {
@@ -1273,7 +1368,6 @@ body {
 }
 .s-gridDpt {
 	flex: 1 1 auto;
-	padding-left: 75px;
 	&__head {
 		display: flex;
 		align-items: center;
@@ -1360,7 +1454,6 @@ body {
 }
 .s-descriptionDpt {
 	padding-top: 30px;
-	margin-top: 80px;
 	border-top: 1px solid $mutedGray;
 	padding-bottom: 100px;
 	h2 {
