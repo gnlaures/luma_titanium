@@ -1,7 +1,7 @@
 <main class="l-innerPage" id="page__departamento">
-	<section class="s-bannerDpt">
+	<div class="l-bannerDpt">
 		<img src="media/img/content/header_dpt.jpg" alt="vestidos">
-	</section>
+	</div>
 	<section class="s-breadcrumb">
 		<div class="u-container">
 			<ul>
@@ -21,18 +21,19 @@
 						<span>Categorias</span>
 					</div>
 					<div class="c-toggleList__content">
-						<ul>
+						<ul class="list__links">
 							<li><a href="#">subcategoria a (34)</a></li>
 							<li><a href="#">subcategoria b (4)</a></li>
 							<li><a href="#">subcategoria c (15)</a></li>
 							<li><a href="#">subcategoria d (43)</a></li>
 							<li><a href="#">subcategoria e (3)</a></li>
 							<li><a href="#">subcategoria f (20)</a></li>
-							<div class="js-openMoreFilters">ver mais +</div>
-							<div class="u-hideElement">
+							<div class="js-moreFilters u-dnone">
 								<li><a href="#">subcategoria g (21)</a></li>
 								<li><a href="#">subcategoria h (2)</a></li>
 							</div>
+							<div class="js-toggleMoreFilters --open">ver mais +</div>
+							<div class="js-toggleMoreFilters --close u-dnone">ver menos -</div>
 						</ul>
 					</div>
 				</div>
@@ -86,7 +87,22 @@
 						<span>Filtro A</span>
 					</div>
 					<div class="c-toggleList__content">
-						<ul class="list__filter">
+						<ul class="list__filter list__links">
+							<li><a href="#"><span class="check is-active"></span>subcategoria a</a></li>
+							<li><a href="#"><span class="check"></span>subcategoria b</a></li>
+							<li><a href="#"><span class="check"></span>subcategoria c</a></li>
+							<li><a href="#"><span class="check"></span>subcategoria d</a></li>
+							<li><a href="#"><span class="check"></span>subcategoria e</a></li>
+							<li><a href="#"><span class="check"></span>subcategoria f</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="c-toggleList --defaultFilter">
+					<div class="c-toggleList__header">
+						<span>Filtro B</span>
+					</div>
+					<div class="c-toggleList__content">
+						<ul class="list__filter list__links">
 							<li><a href="#"><span class="check"></span>subcategoria a</a></li>
 							<li><a href="#"><span class="check"></span>subcategoria b</a></li>
 							<li><a href="#"><span class="check"></span>subcategoria c</a></li>
@@ -98,25 +114,10 @@
 				</div>
 				<div class="c-toggleList --defaultFilter">
 					<div class="c-toggleList__header">
-						<span>Filtro A</span>
+						<span>Filtro C</span>
 					</div>
 					<div class="c-toggleList__content">
-						<ul class="list__filter">
-							<li><a href="#"><span class="check"></span>subcategoria a</a></li>
-							<li><a href="#"><span class="check"></span>subcategoria b</a></li>
-							<li><a href="#"><span class="check"></span>subcategoria c</a></li>
-							<li><a href="#"><span class="check"></span>subcategoria d</a></li>
-							<li><a href="#"><span class="check"></span>subcategoria e</a></li>
-							<li><a href="#"><span class="check"></span>subcategoria f</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="c-toggleList --defaultFilter">
-					<div class="c-toggleList__header">
-						<span>Filtro A</span>
-					</div>
-					<div class="c-toggleList__content">
-						<ul class="list__filter">
+						<ul class="list__filter list__links">
 							<li><a href="#"><span class="check"></span>subcategoria a</a></li>
 							<li><a href="#"><span class="check"></span>subcategoria b</a></li>
 							<li><a href="#"><span class="check"></span>subcategoria c</a></li>
@@ -139,14 +140,32 @@
 								<option value="lorem">Lorem Ipsum</option>
 							</select>
 						</div>
-						<div class="changeView__layout">
-							<span class="js-grid4cols">icon</span>
-							<span class="js-grid3cols">icon</span>
-						</div>
+						<ul class="changeView__layout">
+							<li>
+								<span class="js-toggleGrid" data-cols="4">
+									<img src="media/img/icons/col4.svg" alt="4 Colunas">
+								</span>
+							</li>
+							<li>
+								<span class="js-toggleGrid is-active" data-cols="3">
+									<img src="media/img/icons/col3.svg" alt="3 Colunas">
+								</span>
+							</li>
+							<li class="u-dnone">
+								<span class="js-toggleGrid" data-cols="2">
+									<img src="media/img/icons/col2.svg" alt="2 Colunas">
+								</span>
+							</li>
+							<li class="u-dnone">
+								<span class="js-toggleGrid" data-cols="1">
+									<img src="media/img/icons/col1.svg" alt="1 Coluna">
+								</span>
+							</li>
+						</ul>
 					</div>
 				</div>
 				<div class="s-gridDpt__content">
-					<ul>
+					<ul class="grid__products">
 						<li class="u-fw33"><div class="c-cardProduct">
 								<div class="c-cardProduct__figure">
 									<a href="produto" class="figureHero"><img src="media/img/content/product_1.jpg" alt="Roupa Lorem Ipsum Dolor Sit Amet Adipiscing Consectetuer"></a>
@@ -419,7 +438,7 @@
 			</section>
 		</div>
 	</div>
-	<section class="__descriptionDpt">
+	<section class="s-descriptionDpt">
 		<div class="u-container">
 			<h2>categoria lorem ipsum</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>

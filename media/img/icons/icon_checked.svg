@@ -1,4 +1,10 @@
-<svg class="icon_checked" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-<rect width="20" height="20" fill="#000"/>
-<path fill="#fff" d="M8.83,13.73a.51.51,0,0,1-.36.15.48.48,0,0,1-.36-.15L5.22,10.85a.78.78,0,0,1,0-1.08l.37-.36a.76.76,0,0,1,1.08,0l1.8,1.8,4.86-4.87a.76.76,0,0,1,1.08,0l.37.36a.79.79,0,0,1,0,1.09Z"/>
+<svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M0 5.31906L3.082 8.75004L9 2.18098L8.15037 1.25L3.082 6.875L0.83786 4.38153L0 5.31906Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="9" height="10" fill="white"/>
+</clipPath>
+</defs>
 </svg>

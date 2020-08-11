@@ -156,3 +156,11 @@
 	@include opacity($opacity: 0);
 	visibility: hidden;
 }
+
+@mixin appearance($type) {
+	appearance: $type;
+	-moz-appearance: $type;
+	-ms-appearance: $type;
+	-o-appearance: $type;
+	-webkit-appearance: $type;
+}
