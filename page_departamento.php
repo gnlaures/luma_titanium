@@ -183,17 +183,25 @@
 				</div>
 				<div class="s-gridDpt__content">
 					<ul class="grid__products">
-						<li class="u-fw33"><div class="c-cardProduct">
+						<li class="u-fw33">
+							<div class="c-cardProduct">
 								<div class="c-cardProduct__figure">
+									<span class="featurePromotion">10% OFF</span>
 									<a href="produto" class="figureHero"><img src="media/img/content/product_1.jpg" alt="Roupa Lorem Ipsum Dolor Sit Amet Adipiscing Consectetuer"></a>
-									<ul class="c-cardProduct__sizes">
-										<li><a href="#">P</a></li>
-										<li><a href="#">M</a></li>
-										<li><a href="#">G</a></li>
-										<li><a href="#">GG</a></li>
-										<li><a href="#">XG</a></li>
-										<li><a href="#">XGG</a></li>
-									</ul>
+									<div class="c-cardProduct__sizes">
+										<div class="slick__sizes">
+											<div><a href="#">PP</a></div>
+											<div><a href="#">P</a></div>
+											<div><a href="#">M</a></div>
+											<div><a href="#">G</a></div>
+											<div><a href="#">GG</a></div>
+											<div><a href="#">XG</a></div>
+											<div><a href="#">30</a></div>
+											<div><a href="#">32</a></div>
+											<div><a href="#">34</a></div>
+											<div><a href="#">36</a></div>
+										</div>
+									</div>
 								</div>
 								<a href="produto" class="c-cardProduct__content">
 									<h2 class="content__head">Lorem ipsum dolor sit amet.</h2>
@@ -204,249 +212,8 @@
 										<span class="c-btn --green">Adicionar <span> a sacola</span></span>
 									</div>
 								</a>
-							</div></li>
-						<li class="u-fw33"><div class="c-cardProduct">
-								<div class="c-cardProduct__figure">
-									<a href="produto" class="figureHero"><img src="media/img/content/product_1.jpg" alt="Roupa Lorem Ipsum Dolor Sit Amet Adipiscing Consectetuer"></a>
-									<ul class="c-cardProduct__sizes">
-										<li><a href="#">P</a></li>
-										<li><a href="#">M</a></li>
-										<li><a href="#">G</a></li>
-										<li><a href="#">GG</a></li>
-										<li><a href="#">XG</a></li>
-										<li><a href="#">XGG</a></li>
-									</ul>
-								</div>
-								<a href="produto" class="c-cardProduct__content">
-									<h2 class="content__head">Lorem ipsum dolor sit amet.</h2>
-									<div class="content__end">
-										<span class="price__old">De R$ 399,90</span>
-										<span class="price__now">Por R$ 299,90</span>
-										<span class="price__credit">Em até 10x de R$ 29,90</span>
-										<span class="c-btn --green">Adicionar <span> a sacola</span></span>
-									</div>
-								</a>
-							</div></li>
-						<li class="u-fw33"><div class="c-cardProduct">
-								<div class="c-cardProduct__figure">
-									<a href="produto" class="figureHero"><img src="media/img/content/product_1.jpg" alt="Roupa Lorem Ipsum Dolor Sit Amet Adipiscing Consectetuer"></a>
-									<ul class="c-cardProduct__sizes">
-										<li><a href="#">P</a></li>
-										<li><a href="#">M</a></li>
-										<li><a href="#">G</a></li>
-										<li><a href="#">GG</a></li>
-										<li><a href="#">XG</a></li>
-										<li><a href="#">XGG</a></li>
-									</ul>
-								</div>
-								<a href="produto" class="c-cardProduct__content">
-									<h2 class="content__head">Lorem ipsum dolor sit amet.</h2>
-									<div class="content__end">
-										<span class="price__old">De R$ 399,90</span>
-										<span class="price__now">Por R$ 299,90</span>
-										<span class="price__credit">Em até 10x de R$ 29,90</span>
-										<span class="c-btn --green">Adicionar <span> a sacola</span></span>
-									</div>
-								</a>
-							</div></li>
-						<li class="u-fw33"><div class="c-cardProduct">
-								<div class="c-cardProduct__figure">
-									<a href="produto" class="figureHero"><img src="media/img/content/product_1.jpg" alt="Roupa Lorem Ipsum Dolor Sit Amet Adipiscing Consectetuer"></a>
-									<ul class="c-cardProduct__sizes">
-										<li><a href="#">P</a></li>
-										<li><a href="#">M</a></li>
-										<li><a href="#">G</a></li>
-										<li><a href="#">GG</a></li>
-										<li><a href="#">XG</a></li>
-										<li><a href="#">XGG</a></li>
-									</ul>
-								</div>
-								<a href="produto" class="c-cardProduct__content">
-									<h2 class="content__head">Lorem ipsum dolor sit amet.</h2>
-									<div class="content__end">
-										<span class="price__old">De R$ 399,90</span>
-										<span class="price__now">Por R$ 299,90</span>
-										<span class="price__credit">Em até 10x de R$ 29,90</span>
-										<span class="c-btn --green">Adicionar <span> a sacola</span></span>
-									</div>
-								</a>
-							</div></li>
-						<li class="u-fw33"><div class="c-cardProduct">
-								<div class="c-cardProduct__figure">
-									<a href="produto" class="figureHero"><img src="media/img/content/product_1.jpg" alt="Roupa Lorem Ipsum Dolor Sit Amet Adipiscing Consectetuer"></a>
-									<ul class="c-cardProduct__sizes">
-										<li><a href="#">P</a></li>
-										<li><a href="#">M</a></li>
-										<li><a href="#">G</a></li>
-										<li><a href="#">GG</a></li>
-										<li><a href="#">XG</a></li>
-										<li><a href="#">XGG</a></li>
-									</ul>
-								</div>
-								<a href="produto" class="c-cardProduct__content">
-									<h2 class="content__head">Lorem ipsum dolor sit amet.</h2>
-									<div class="content__end">
-										<span class="price__old">De R$ 399,90</span>
-										<span class="price__now">Por R$ 299,90</span>
-										<span class="price__credit">Em até 10x de R$ 29,90</span>
-										<span class="c-btn --green">Adicionar <span> a sacola</span></span>
-									</div>
-								</a>
-							</div></li>
-						<li class="u-fw33"><div class="c-cardProduct">
-								<div class="c-cardProduct__figure">
-									<a href="produto" class="figureHero"><img src="media/img/content/product_1.jpg" alt="Roupa Lorem Ipsum Dolor Sit Amet Adipiscing Consectetuer"></a>
-									<ul class="c-cardProduct__sizes">
-										<li><a href="#">P</a></li>
-										<li><a href="#">M</a></li>
-										<li><a href="#">G</a></li>
-										<li><a href="#">GG</a></li>
-										<li><a href="#">XG</a></li>
-										<li><a href="#">XGG</a></li>
-									</ul>
-								</div>
-								<a href="produto" class="c-cardProduct__content">
-									<h2 class="content__head">Lorem ipsum dolor sit amet.</h2>
-									<div class="content__end">
-										<span class="price__old">De R$ 399,90</span>
-										<span class="price__now">Por R$ 299,90</span>
-										<span class="price__credit">Em até 10x de R$ 29,90</span>
-										<span class="c-btn --green">Adicionar <span> a sacola</span></span>
-									</div>
-								</a>
-							</div></li>
-						<li class="u-fw33"><div class="c-cardProduct">
-								<div class="c-cardProduct__figure">
-									<a href="produto" class="figureHero"><img src="media/img/content/product_1.jpg" alt="Roupa Lorem Ipsum Dolor Sit Amet Adipiscing Consectetuer"></a>
-									<ul class="c-cardProduct__sizes">
-										<li><a href="#">P</a></li>
-										<li><a href="#">M</a></li>
-										<li><a href="#">G</a></li>
-										<li><a href="#">GG</a></li>
-										<li><a href="#">XG</a></li>
-										<li><a href="#">XGG</a></li>
-									</ul>
-								</div>
-								<a href="produto" class="c-cardProduct__content">
-									<h2 class="content__head">Lorem ipsum dolor sit amet.</h2>
-									<div class="content__end">
-										<span class="price__old">De R$ 399,90</span>
-										<span class="price__now">Por R$ 299,90</span>
-										<span class="price__credit">Em até 10x de R$ 29,90</span>
-										<span class="c-btn --green">Adicionar <span> a sacola</span></span>
-									</div>
-								</a>
-							</div></li>
-						<li class="u-fw33"><div class="c-cardProduct">
-								<div class="c-cardProduct__figure">
-									<a href="produto" class="figureHero"><img src="media/img/content/product_1.jpg" alt="Roupa Lorem Ipsum Dolor Sit Amet Adipiscing Consectetuer"></a>
-									<ul class="c-cardProduct__sizes">
-										<li><a href="#">P</a></li>
-										<li><a href="#">M</a></li>
-										<li><a href="#">G</a></li>
-										<li><a href="#">GG</a></li>
-										<li><a href="#">XG</a></li>
-										<li><a href="#">XGG</a></li>
-									</ul>
-								</div>
-								<a href="produto" class="c-cardProduct__content">
-									<h2 class="content__head">Lorem ipsum dolor sit amet.</h2>
-									<div class="content__end">
-										<span class="price__old">De R$ 399,90</span>
-										<span class="price__now">Por R$ 299,90</span>
-										<span class="price__credit">Em até 10x de R$ 29,90</span>
-										<span class="c-btn --green">Adicionar <span> a sacola</span></span>
-									</div>
-								</a>
-							</div></li>
-						<li class="u-fw33"><div class="c-cardProduct">
-								<div class="c-cardProduct__figure">
-									<a href="produto" class="figureHero"><img src="media/img/content/product_1.jpg" alt="Roupa Lorem Ipsum Dolor Sit Amet Adipiscing Consectetuer"></a>
-									<ul class="c-cardProduct__sizes">
-										<li><a href="#">P</a></li>
-										<li><a href="#">M</a></li>
-										<li><a href="#">G</a></li>
-										<li><a href="#">GG</a></li>
-										<li><a href="#">XG</a></li>
-										<li><a href="#">XGG</a></li>
-									</ul>
-								</div>
-								<a href="produto" class="c-cardProduct__content">
-									<h2 class="content__head">Lorem ipsum dolor sit amet.</h2>
-									<div class="content__end">
-										<span class="price__old">De R$ 399,90</span>
-										<span class="price__now">Por R$ 299,90</span>
-										<span class="price__credit">Em até 10x de R$ 29,90</span>
-										<span class="c-btn --green">Adicionar <span> a sacola</span></span>
-									</div>
-								</a>
-							</div></li>
-						<li class="u-fw33"><div class="c-cardProduct">
-								<div class="c-cardProduct__figure">
-									<a href="produto" class="figureHero"><img src="media/img/content/product_1.jpg" alt="Roupa Lorem Ipsum Dolor Sit Amet Adipiscing Consectetuer"></a>
-									<ul class="c-cardProduct__sizes">
-										<li><a href="#">P</a></li>
-										<li><a href="#">M</a></li>
-										<li><a href="#">G</a></li>
-										<li><a href="#">GG</a></li>
-										<li><a href="#">XG</a></li>
-										<li><a href="#">XGG</a></li>
-									</ul>
-								</div>
-								<a href="produto" class="c-cardProduct__content">
-									<h2 class="content__head">Lorem ipsum dolor sit amet.</h2>
-									<div class="content__end">
-										<span class="price__old">De R$ 399,90</span>
-										<span class="price__now">Por R$ 299,90</span>
-										<span class="price__credit">Em até 10x de R$ 29,90</span>
-										<span class="c-btn --green">Adicionar <span> a sacola</span></span>
-									</div>
-								</a>
-							</div></li>
-						<li class="u-fw33"><div class="c-cardProduct">
-								<div class="c-cardProduct__figure">
-									<a href="produto" class="figureHero"><img src="media/img/content/product_1.jpg" alt="Roupa Lorem Ipsum Dolor Sit Amet Adipiscing Consectetuer"></a>
-									<ul class="c-cardProduct__sizes">
-										<li><a href="#">P</a></li>
-										<li><a href="#">M</a></li>
-										<li><a href="#">G</a></li>
-										<li><a href="#">GG</a></li>
-										<li><a href="#">XG</a></li>
-										<li><a href="#">XGG</a></li>
-									</ul>
-								</div>
-								<a href="produto" class="c-cardProduct__content">
-									<h2 class="content__head">Lorem ipsum dolor sit amet.</h2>
-									<div class="content__end">
-										<span class="price__old">De R$ 399,90</span>
-										<span class="price__now">Por R$ 299,90</span>
-										<span class="price__credit">Em até 10x de R$ 29,90</span>
-										<span class="c-btn --green">Adicionar <span> a sacola</span></span>
-									</div>
-								</a>
-							</div></li>
-						<li class="u-fw33"><div class="c-cardProduct">
-								<div class="c-cardProduct__figure">
-									<a href="produto" class="figureHero"><img src="media/img/content/product_1.jpg" alt="Roupa Lorem Ipsum Dolor Sit Amet Adipiscing Consectetuer"></a>
-									<ul class="c-cardProduct__sizes">
-										<li><a href="#">P</a></li>
-										<li><a href="#">M</a></li>
-										<li><a href="#">G</a></li>
-										<li><a href="#">GG</a></li>
-										<li><a href="#">XG</a></li>
-										<li><a href="#">XGG</a></li>
-									</ul>
-								</div>
-								<a href="produto" class="c-cardProduct__content">
-									<h2 class="content__head">Lorem ipsum dolor sit amet.</h2>
-									<div class="content__end">
-										<span class="price__old">De R$ 399,90</span>
-										<span class="price__now">Por R$ 299,90</span>
-										<span class="price__credit">Em até 10x de R$ 29,90</span>
-										<span class="c-btn --green">Adicionar <span> a sacola</span></span>
-									</div>
-								</a>
-							</div></li>
+							</div>
+						</li>
 					</ul>
 					<div class="content__cta">
 						<a href="#" class="c-btn --stroke --secondary">Carregar mais</a>

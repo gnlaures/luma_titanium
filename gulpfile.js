@@ -43,7 +43,7 @@ var jsLibraries__files = [
     'libraries/swiper/swiper.min.js',
     'libraries/splide/splide.min.js',
     'libraries/aos/aos.js',
-    //'libraries/enllax/enllax.min.js',
+    'libraries/slick/slick.min.js',
     //'libraries/plyr/plyr.js',
     //'libraries/tilt/tilt.jquery.min.js'
 ];
@@ -62,7 +62,8 @@ var cssLibraries__files = [
     'libraries/splide/splide.min.css',
     'libraries/splide/splide-skyblue.min.css',
     'libraries/aos/aos.css',
-    //'libraries/plyr/plyr.css',
+    'libraries/slick/slick.css',
+    'libraries/slick/slick-theme.css',
 ];
 gulp.task('cssLibraries', function(done) {
     gulp.src(cssLibraries__files)

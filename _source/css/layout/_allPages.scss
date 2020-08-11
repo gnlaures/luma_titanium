@@ -20,6 +20,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	padding: 5px 0;
+	z-index: 1;
 }
 .swiper-pagination-bullet {
 	@include transition();
@@ -113,8 +114,28 @@ body {
 .splide__arrow[disabled] {
 	@include u-hideElement;
 }
-
-// l-
+.slick-prev:before {
+	content: '';
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-image: url(#{$media_assets}arrow_left_white.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.slick-next:before {
+	content: '';
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-image: url(#{$media_assets}arrow_right_white.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+	
+	// l-
 .l-nav {
 	@include transition($ease: ease-in);
 	display: block;

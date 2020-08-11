@@ -170,3 +170,30 @@ if ($('.c-search').length) {
         }
     });
 }
+
+// cardProduto
+if ($('.c-cardProduct')) {
+    $(window).on('load', function() {
+        $('.slick__sizes').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 4,
+            slidesToScroll: 2,
+            responsive: [
+                {
+                    breakpoint: 780,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                    }
+                }
+            ]
+        });
+    });
+    $(window).on('resize load', function () {
+        var cardWidth = $('.c-cardProduct').width();
+        $('.slick__sizes').css('width', cardWidth - 70);
+        $('.slick__sizes *').css('max-width', cardWidth - 70);
+    })
+}
