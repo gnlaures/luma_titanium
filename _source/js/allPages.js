@@ -275,6 +275,25 @@ if ($('.l-asideFilters').length) {
 }
 
 // s-
+if ($('.l-contentDpt').length) {
+    function openModal(el) {
+        $('.l-modalMobile__mask').addClass('is-active');
+        $(el).addClass('is-active');
+    }
+    function closeModal() {
+        $('.l-modalMobile__mask').removeClass('is-active');
+        $('.l-modalMobile').removeClass('is-active');
+    }
+    $('.js-openModalMobile').on('click', function(e) {
+        e.preventDefault();
+        var destiny = $(this).attr('href');
+        openModal(destiny);
+    });
+    $('.l-modalMobile__mask, .js-closeModalMobile').on('click', function(e) {
+        e.preventDefault();
+        closeModal();
+    });
+}
 if ($('.s-gridDpt').length) {
     $('.changeView__layout span').on('click', function() {
         $('.changeView__layout span').removeClass('is-active');

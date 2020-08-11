@@ -417,6 +417,56 @@
         }
     }
 }
+@media screen and (max-width: 900px) {
+    .s-gridDpt {
+        &__head {
+            margin-bottom: 10px;
+        }
+        .head__numResults,
+        .head__changeView .changeView__orderBy {
+            display: none;
+        }
+        .head__filtersMobile {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            li {
+                margin-right: 10px;
+                padding-right: 10px;
+                border-right: 1px solid $mutedGray;
+                &:last-of-type {
+                    margin-right: 0;
+                    padding-right: 0;
+                    border-right: 0;
+                }
+            }
+            a {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                img {
+                    display: block;
+                    width: 20px;
+                    height: 20px;
+                }
+                .caption {
+                    @include transition();
+                    color: $black;
+                    font-size: 16px;
+                    font-weight: $fwLight;
+                    text-transform: uppercase;
+                }
+                &:hover {
+                    span {
+                        color: $primary;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
 @media screen and (max-width: 680px) {
     .s-gridDpt {
         .head__changeView {
@@ -434,6 +484,9 @@
             > li {
                 padding: 4px;
                 @include flexWidth(50%);
+                &.u-fw100 {
+                    @include flexWidth(100%);
+                }
             }
         }
     }
@@ -451,15 +504,34 @@
 
 // l-contentDpt
 @media screen and (max-width: 900px) {
+    .l-contentDpt {
+        .l-asideFilters {
+            display: none;
+        }
+    }
     .s-gridDpt {
         padding-left: 0;
-    }
-    .l-asideFilters {
-        display: none;
     }
 }
 @media screen and (max-width: 350px) {
     .l-contentDpt {
         padding: 0;
+    }
+}
+
+// lheaderdpt
+@media screen and (max-width: 990px) {
+    .l-bannerDpt img {
+        position: relative;
+        height: auto;
+        width: 180%;
+        left: -40%;
+    }
+}
+@media screen and (max-width: 540px) {
+    .l-bannerDpt img {
+        position: relative;
+        width: 100%;
+        left: 0;
     }
 }

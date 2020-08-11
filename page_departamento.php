@@ -1,6 +1,9 @@
 <main class="l-innerPage" id="page__departamento">
 	<div class="l-bannerDpt">
-		<img src="media/img/content/header_dpt.jpg" alt="vestidos">
+		<picture>
+			<source media="(max-width:540px)" srcset="media/img/content/header_dpt_mobile.jpg">
+			<img src="media/img/content/header_dpt.jpg" alt="vestidos">
+		</picture>
 	</div>
 	<section class="s-breadcrumb">
 		<div class="u-container">
@@ -130,6 +133,20 @@
 			</aside>
 			<section class="s-gridDpt">
 				<div class="s-gridDpt__head">
+					<ul class="head__filtersMobile">
+						<li>
+							<a href="#filters" class="js-openModalMobile">
+								<img src="media/img/icons/icon_filter.svg" alt="Filtrar">
+								<span class="caption">Filtrar</span>
+							</a>
+						</li>
+						<li>
+							<a href="#orderBy" class="js-openModalMobile">
+								<img src="media/img/icons/icon_order.svg" alt="Ordenar">
+								<span class="caption">Ordenar</span>
+							</a>
+						</li>
+					</ul>
 					<span class="head__numResults"><strong>230</strong> produtos</span>
 					<div class="head__changeView">
 						<div class="changeView__orderBy">
@@ -445,3 +462,145 @@
 		</div>
 	</section>
 </main>
+
+<div class="l-modalMobile__mask"></div>
+<div id="orderBy" class="l-modalMobile --orderBy">
+	<div class="l-modalMobile__head">
+		<h2>Ordenar</h2>
+		<div class="js-closeModalMobile"><img src="media/img/icons/icon_x_black.svg" alt="Fechar"></div>
+	</div>
+	<div class="l-modalMobile__content">
+		<ul>
+			<li><a href="#">Relevância</a></li>
+			<li><a href="#">Menor preço para maior</a></li>
+			<li><a href="#">Maior preço para menor</a></li>
+			<li><a href="#">A > Z</a></li>
+			<li><a href="#">Z > A</a></li>
+		</ul>
+	</div>
+</div>
+<div id="filters" class="l-modalMobile --aside">
+	<div class="l-modalMobile__head">
+		<h2>Filtre seus resultados</h2>
+		<div class="js-closeModalMobile"><img src="media/img/icons/icon_x_black.svg" alt="Fechar"></div>
+	</div>
+	<div class="l-modalMobile__content">
+		<aside class="l-asideFilters">
+			<div class="c-toggleList is-active --categories">
+				<div class="c-toggleList__header">
+					<span>Categorias</span>
+				</div>
+				<div class="c-toggleList__content">
+					<ul class="list__links">
+						<li><a href="#">subcategoria a (34)</a></li>
+						<li><a href="#">subcategoria b (4)</a></li>
+						<li><a href="#">subcategoria c (15)</a></li>
+						<li><a href="#">subcategoria d (43)</a></li>
+						<li><a href="#">subcategoria e (3)</a></li>
+						<li><a href="#">subcategoria f (20)</a></li>
+						<div class="js-moreFilters u-dnone">
+							<li><a href="#">subcategoria g (21)</a></li>
+							<li><a href="#">subcategoria h (2)</a></li>
+						</div>
+						<div class="js-toggleMoreFilters --open">ver mais +</div>
+						<div class="js-toggleMoreFilters --close u-dnone">ver menos -</div>
+					</ul>
+				</div>
+			</div>
+			<div class="c-toggleList is-active --colors">
+				<div class="c-toggleList__header">
+					<span>Cores</span>
+				</div>
+				<div class="c-toggleList__content">
+					<ul class="grid__colors">
+						<li><a href="#" style="background-color: #D24444"></a></li>
+						<li><a href="#" style="background-color: #D92968"></a></li>
+						<li><a href="#" style="background-color: #E459C6"></a></li>
+						<li><a href="#" style="background-color: #B644D2"></a></li>
+						<li><a href="#" style="background-color: #9444D2"></a></li>
+						<li><a href="#" style="background-color: #D26644"></a></li>
+						<li><a href="#" style="background-color: #D29144"></a></li>
+						<li><a href="#" style="background-color: #DFB853"></a></li>
+						<li><a href="#" style="background-color: #C9D357"></a></li>
+						<li><a href="#" style="background-color: #E0ED92"></a></li>
+						<li><a href="#" style="background-color: #3D49B8"></a></li>
+						<li><a href="#" style="background-color: #4464D2"></a></li>
+						<li><a href="#" style="background-color: #2AB8D7"></a></li>
+						<li><a href="#" style="background-color: #69D8F0"></a></li>
+						<li><a href="#" style="background-color: #69F0D8"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="c-toggleList is-active --sizes">
+				<div class="c-toggleList__header">
+					<span>Tamanho</span>
+				</div>
+				<div class="c-toggleList__content">
+					<ul class="grid__sizes">
+						<li><a href="#">PP</a></li>
+						<li><a href="#">P</a></li>
+						<li><a href="#">M</a></li>
+						<li><a href="#">G</a></li>
+						<li><a href="#">GG</a></li>
+						<li><a href="#">XG</a></li>
+						<li><a href="#">30</a></li>
+						<li><a href="#">32</a></li>
+						<li><a href="#">34</a></li>
+						<li><a href="#">36</a></li>
+						<li><a href="#">38</a></li>
+						<li><a href="#">40</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="c-toggleList is-active --defaultFilter">
+				<div class="c-toggleList__header">
+					<span>Filtro A</span>
+				</div>
+				<div class="c-toggleList__content">
+					<ul class="list__filter list__links">
+						<li><a href="#"><span class="check is-active"></span>subcategoria a</a></li>
+						<li><a href="#"><span class="check"></span>subcategoria b</a></li>
+						<li><a href="#"><span class="check"></span>subcategoria c</a></li>
+						<li><a href="#"><span class="check"></span>subcategoria d</a></li>
+						<li><a href="#"><span class="check"></span>subcategoria e</a></li>
+						<li><a href="#"><span class="check"></span>subcategoria f</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="c-toggleList --defaultFilter">
+				<div class="c-toggleList__header">
+					<span>Filtro B</span>
+				</div>
+				<div class="c-toggleList__content">
+					<ul class="list__filter list__links">
+						<li><a href="#"><span class="check"></span>subcategoria a</a></li>
+						<li><a href="#"><span class="check"></span>subcategoria b</a></li>
+						<li><a href="#"><span class="check"></span>subcategoria c</a></li>
+						<li><a href="#"><span class="check"></span>subcategoria d</a></li>
+						<li><a href="#"><span class="check"></span>subcategoria e</a></li>
+						<li><a href="#"><span class="check"></span>subcategoria f</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="c-toggleList --defaultFilter">
+				<div class="c-toggleList__header">
+					<span>Filtro C</span>
+				</div>
+				<div class="c-toggleList__content">
+					<ul class="list__filter list__links">
+						<li><a href="#"><span class="check"></span>subcategoria a</a></li>
+						<li><a href="#"><span class="check"></span>subcategoria b</a></li>
+						<li><a href="#"><span class="check"></span>subcategoria c</a></li>
+						<li><a href="#"><span class="check"></span>subcategoria d</a></li>
+						<li><a href="#"><span class="check"></span>subcategoria e</a></li>
+						<li><a href="#"><span class="check"></span>subcategoria f</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="l-asideFilters__buttons">
+				<a href="#" class="deleteFilters">Limpar filtros</a>
+				<a href="#" class="c-btn --green">Filtrar</a>
+			</div>
+		</aside>
+	</div>
+</div>
