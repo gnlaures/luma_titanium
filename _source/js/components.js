@@ -171,8 +171,8 @@ if ($('.c-search').length) {
     });
 }
 
-// cardProduto
-if ($('.c-cardProduct')) {
+// cards
+if ($('.c-cardProduct').length) {
     $(window).on('load', function() {
         $('.slick__sizes').slick({
             dots: false,
@@ -197,3 +197,14 @@ if ($('.c-cardProduct')) {
         $('.slick__sizes *').css('max-width', cardWidth - 70);
     })
 }
+if ($('.c-cardBuy').length) {
+    $('.c-cardBuy__ratings').on('click', function(e) {
+        e.preventDefault();
+        var finalDestiny = $(this).attr('href');
+        goToSection__scroll(finalDestiny, 100, 50, 700, 10);
+    });
+}
+
+
+
+

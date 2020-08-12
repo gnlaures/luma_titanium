@@ -753,12 +753,12 @@
 					<ul class="splide__list u-dflex">
 						<li class="splide__slide">
 							<a href="#" class="c-cardTestimonials">
-								<ul class="stars">
+								<ul class="c-stars">
 									<li class="goldStar"></li>
 									<li class="goldStar"></li>
 									<li class="goldStar"></li>
 									<li class="goldStar"></li>
-									<li class="goldStar"></li>
+									<li class="grayStar"></li>
 								</ul>
 								<blockquote>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -771,12 +771,12 @@
 						</li>
 						<li class="splide__slide">
 							<a href="#" class="c-cardTestimonials">
-								<ul class="stars">
+								<ul class="c-stars">
 									<li class="goldStar"></li>
 									<li class="goldStar"></li>
 									<li class="goldStar"></li>
 									<li class="goldStar"></li>
-									<li class="grayStar"></li>
+									<li class="goldStar"></li>
 								</ul>
 								<blockquote>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet enim hic
@@ -787,11 +787,11 @@
 						</li>
 						<li class="splide__slide">
 							<a href="#" class="c-cardTestimonials">
-								<ul class="stars">
+								<ul class="c-stars">
 									<li class="goldStar"></li>
 									<li class="goldStar"></li>
 									<li class="goldStar"></li>
-									<li class="grayStar"></li>
+									<li class="goldStar"></li>
 									<li class="grayStar"></li>
 								</ul>
 								<blockquote>
@@ -804,12 +804,12 @@
 						</li>
 						<li class="splide__slide">
 							<a href="#" class="c-cardTestimonials">
-								<ul class="stars">
+								<ul class="c-stars">
 									<li class="goldStar"></li>
 									<li class="goldStar"></li>
 									<li class="goldStar"></li>
-									<li class="goldStar"></li>
-									<li class="goldStar"></li>
+									<li class="grayStar"></li>
+									<li class="grayStar"></li>
 								</ul>
 								<blockquote>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, consectetur

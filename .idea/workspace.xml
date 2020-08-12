@@ -137,10 +137,23 @@
       <workItem from="1597101421603" duration="15966000" />
       <workItem from="1597154991917" duration="163000" />
       <workItem from="1597155181037" duration="2107000" />
+      <workItem from="1597193439674" duration="10348000" />
+      <workItem from="1597204504770" duration="724000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/_source/js/allPages.js</url>
+          <line>60</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
