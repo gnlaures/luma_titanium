@@ -205,6 +205,41 @@ if ($('.c-cardBuy').length) {
     });
 }
 
+if ($('.c-addRemControl').length) {
+    var c__addRemControl = {
+        add: $('.qtf__add'),
+        rem: $('.qtf__rem'),
+        input: $('.c-addRemControl input'),
+        range: 1,
+    };
 
+    $('.c-addRemControl input').each(function (index) {
+        if($(this).val() === '' || $(this).val() === undefined || $(this).val() === null || $(this).val() < $(this).attr('min')){
+            $(this).val($(this).attr('min'));
+        }
+    });
+
+    c__addRemControl.add.on('click', function() {
+        var min = $(this).closest('.c-addRemControl').children('input').attr('min');
+        var max = $(this).closest('.c-addRemControl').children('input').attr('max');
+        var actualQtf = parseInt($(this).closest('.c-addRemControl').children('input').val());
+        if (actualQtf < max) {
+            $(this).closest('.c-addRemControl').children('input').val(actualQtf + 1);
+        } else {
+            alert('Você pode pedir no máximo ' + max + ' itens.');
+        }
+    });
+    c__addRemControl.rem.on('click', function() {
+        var min = $(this).closest('.c-addRemControl').children('input').attr('min');
+        var max = $(this).closest('.c-addRemControl').children('input').attr('max');
+        var actualQtf = parseInt($(this).closest('.c-addRemControl').children('input').val());
+        if (actualQtf > min) {
+            $(this).closest('.c-addRemControl').children('input').val(actualQtf - 1);
+        } else {
+            alert('Você pode pedir no mínimo ' + min + ' item.');
+        }
+    });
+
+}
 
 

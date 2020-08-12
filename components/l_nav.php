@@ -581,7 +581,7 @@
 							<div class="content__price">R$ 1.999,90</div>
 							<div class="c-addRemControl content__qtf">
 								<span class="qtf__rem">-</span>
-								<input type="number" value="1">
+								<input type="number" min="1" max="10" value="1">
 								<span class="qtf__add">+</span>
 							</div>
 						</div>
@@ -604,7 +604,7 @@
 							<div class="content__price">R$ 1.999,90</div>
 							<div class="c-addRemControl content__qtf">
 								<span class="qtf__rem">-</span>
-								<input type="number" value="1">
+								<input type="number" min="1" max="10" value="1">
 								<span class="qtf__add">+</span>
 							</div>
 						</div>
@@ -627,7 +627,7 @@
 							<div class="content__price">R$ 1.999,90</div>
 							<div class="c-addRemControl content__qtf">
 								<span class="qtf__rem">-</span>
-								<input type="number" value="1">
+								<input type="number" min="1" max="10" value="1">
 								<span class="qtf__add">+</span>
 							</div>
 						</div>
@@ -650,7 +650,7 @@
 							<div class="content__price">R$ 1.999,90</div>
 							<div class="c-addRemControl content__qtf">
 								<span class="qtf__rem">-</span>
-								<input type="number" value="1">
+								<input type="number" min="1" max="10" value="1">
 								<span class="qtf__add">+</span>
 							</div>
 						</div>
@@ -673,7 +673,7 @@
 							<div class="content__price">R$ 1.999,90</div>
 							<div class="c-addRemControl content__qtf">
 								<span class="qtf__rem">-</span>
-								<input type="number" value="1">
+								<input type="number" min="1" max="10" value="1">
 								<span class="qtf__add">+</span>
 							</div>
 						</div>
@@ -696,7 +696,7 @@
 							<div class="content__price">R$ 1.999,90</div>
 							<div class="c-addRemControl content__qtf">
 								<span class="qtf__rem">-</span>
-								<input type="number" value="1">
+								<input type="number" min="1" max="10" value="1">
 								<span class="qtf__add">+</span>
 							</div>
 						</div>
@@ -719,7 +719,7 @@
 							<div class="content__price">R$ 1.999,90</div>
 							<div class="c-addRemControl content__qtf">
 								<span class="qtf__rem">-</span>
-								<input type="number" value="1">
+								<input type="number" min="1" max="10" value="1">
 								<span class="qtf__add">+</span>
 							</div>
 						</div>
@@ -742,7 +742,7 @@
 							<div class="content__price">R$ 1.999,90</div>
 							<div class="c-addRemControl content__qtf">
 								<span class="qtf__rem">-</span>
-								<input type="number" value="1">
+								<input type="number" min="1" max="10" value="1">
 								<span class="qtf__add">+</span>
 							</div>
 						</div>
@@ -765,7 +765,7 @@
 							<div class="content__price">R$ 1.999,90</div>
 							<div class="c-addRemControl content__qtf">
 								<span class="qtf__rem">-</span>
-								<input type="number" value="1">
+								<input type="number" min="1" max="10" value="1">
 								<span class="qtf__add">+</span>
 							</div>
 						</div>
@@ -788,7 +788,7 @@
 							<div class="content__price">R$ 1.999,90</div>
 							<div class="c-addRemControl content__qtf">
 								<span class="qtf__rem">-</span>
-								<input type="number" value="1">
+								<input type="number" min="1" max="10" value="1">
 								<span class="qtf__add">+</span>
 							</div>
 						</div>
@@ -811,7 +811,7 @@
 							<div class="content__price">R$ 1.999,90</div>
 							<div class="c-addRemControl content__qtf">
 								<span class="qtf__rem">-</span>
-								<input type="number" value="1">
+								<input type="number" min="1" max="10" value="1">
 								<span class="qtf__add">+</span>
 							</div>
 						</div>

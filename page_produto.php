@@ -194,7 +194,7 @@
 					 <div class="c-cardBuy__end">
 						 <div class="c-addRemControl">
 							 <span class="qtf__rem">-</span>
-							 <input type="number" min="0" max="99" value="1">
+							 <input type="number" min="1" max="10" value="1">
 							 <span class="qtf__add">+</span>
 						 </div>
 						 <a href="#" class="c-btn --green">Adicionar ao carrinho</a>
